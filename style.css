@@ -1,0 +1,177 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(238, 238, 238, 1);
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: "Inter", sans-serif;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    gap: 150px;
+    position: relative;
+
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding-bottom: 200px;
+    max-height: 506px;
+}
+
+.title {
+    font-family: Inter;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 116.18px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    width: 200px;
+    color: rgba(0, 127, 219, 1);
+}
+
+.input-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.input-side {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+#search-input {
+    width: 275px;
+    height: 50px;
+    border: none;
+    background-color: rgba(235, 239, 242, 1);
+    border-radius: 5px;
+    padding-left: 40px;
+    font-size: 16px;
+    outline: none;
+}
+
+
+.checked-div {
+    width: 24px;
+    height: 24px;
+    border: 2px solid rgba(32, 238, 176, 1);
+    border-radius: 12px;
+    background-color: rgba(32, 238, 176, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 10px;
+}
+
+.checked-div-sec {
+    width: 24px;
+    height: 24px;
+    border: 2px solid rgba(32, 238, 176, 1);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+#search-input::placeholder {
+    color: rgba(100, 100, 100, 0.7);
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+.plus-icon {
+    width: 88px;
+    height: 50px;
+    background-color: rgba(32, 238, 176, 1);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.added-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.right-side {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.task-addition-time {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.94px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(136, 136, 136, 1);
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.list-container {
+    max-height: 194px;
+    overflow-y: auto;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+#trash {
+    cursor: pointer;
+}
+
+.checkedSec {
+    background-color: rgba(32, 238, 176, 1);
+}
+
+.time-div {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 25%;
+    left: 80%;
+    align-items: flex-end;
+}
+
+.day {
+    color: #FFFFFF;
+}
+
+.hr {
+    color: #FFFFFF;
+}
